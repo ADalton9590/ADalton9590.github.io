@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Tataru's Bountiful Boutique Order Page</title>
+    <meta charset="utf-8">
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+    <div id="headwrap">
+        <header>
+            <h1>Tataru's Bountiful Boutique Order Page</h1>
+        </header>
+    </div>
+    <div id="wrapper">
+        <div class="sticky">
+            <div id="navwrap">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="styles.html">Styles</a></li> <!--Include Sizes/Style chart in this one-->
+                        <li><a href="order.html">Order</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <main>
+            <h2>Order Your Favorite Styles Here!</h2>
+            <hr>
+            <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+                <fieldset>
+                    <legend>Choose your style</legend>
+                    <label for="tankset">Tank Full Set</label>
+                    <input type="checkbox" id="tankset" name="tankset" value="Tank Set">
+
+                    <label for="tanktop">Tank Top</label>
+                    <input type="checkbox" id="tanktop" name="tanktop" value="Tank Top">
+
+                    <label for="tankarmguard">Tank Armguards</label>
+                    <input type="checkbox" id="tankarmguard" name="tankarmguard" value="Tank Armguards">
+
+                    <label for="tankbottom">Tank Bottoms</label>
+                    <input type="checkbox" id="tankbottom" name="tankbottom" value="Tank Bottoms">
+
+                    <label for="tankshoes">Tank Shoes</label>
+                    <input type="checkbox" id="tankshoes" name="tankshoes" value="Tank Shoes">
+
+                    <label for="healset">Healer Full Set</label>
+                    <input type="checkbox" id="healset" name="healset" value="Healer Set">
+
+                    <label for="healtop">Healer Top</label>
+                    <input type="checkbox" id="healtop" name="healtop" value="Healer Top">
+
+                    <label for="healarmguard">Healer Armguards</label>
+                    <input type="checkbox" id="healarmguard" name="healarmguard" value="Healer Armguards">
+
+                    <label for="healbottom">Healer Bottoms</label>
+                    <input type="checkbox" id="healbottom" name="healbottom" value="Healer Bottoms">
+
+                    <label for="healshoes">Healer Shoes</label>
+                    <input type="checkbox" id="healshoes" name="healshoes" value="Healer Shoes">
+
+                    <label for="meleeset">Melee DPS Full Set</label>
+                    <input type="checkbox" id="meleeset" name="meleeset" value="Melee Set">
+
+                    <label for="meleetop">Melee DPS Top</label>
+                    <input type="checkbox" id="meleetop" name="meleetop" value="Melee Top">
+
+                    <label for="meleearmguard">Melee DPS Armguards</label>
+                    <input type="checkbox" id="meleearmguard" name="meleearmguard" value="Melee Armguards">
+
+                    <label for="meleebottom">Melee DPS Bottoms</label>
+                    <input type="checkbox" id="meleebottom" name="meleebottom" value="Melee Bottoms">
+
+                    <label for="meleeshoes">Melee DPS Shoes</label>
+                    <input type="checkbox" id="meleeshoes" name="meleeshoes" value="Melee Shoes">
+
+                    <label for="rangedset">Ranged DPS Full Set</label>
+                    <input type="checkbox" id="rangedset" name="rangedset" value="Ranged Set">
+
+                    <label for="rangedtop">Ranged DPS Top</label>
+                    <input type="checkbox" id="rangedtop" name="rangedtop" value="Ranged Top">
+
+                    <label for="rangedarmguard">Ranged DPS Armguards</label>
+                    <input type="checkbox" id="rangedarmguard" name="rangedarmguard" value="Ranged Armguards">
+
+                    <label for="rangedbottom">Ranged DPS Bottoms</label>
+                    <input type="checkbox" id="rangedbottom" name="rangedbottom" value="Ranged Bottoms">
+
+                    <label for="rangedshoes">Ranged DPS Shoes</label>
+                    <input type="checkbox" id="rangedshoes" name="rangedshoes" value="Ranged Shoes">
+
+                    <label for="magicset">Magic DPS Full Set</label>
+                    <input type="checkbox" id="magicset" name="magicset" value="Magic Set">
+
+                    <label for="magictop">Magic DPS Top</label>
+                    <input type="checkbox" id="magictop" name="magictop" value="Magic Top">
+
+                    <label for="magicarmguard">Magic DPS Armguards</label>
+                    <input type="checkbox" id="magicarmguard" name="magicarmguard" value="Magic Armguards">
+
+                    <label for="magicbottom">Magic DPS Bottoms</label>
+                    <input type="checkbox" id="magicbottom" name="magicbottom" value="Magic Bottoms">
+
+                    <label for="magicshoes">Magic DPS Shoes</label>
+                    <input type="checkbox" id="magicshoes" name="magicshoes" value="Magic Shoes">
+
+                </fieldset>
+                <p>Please fill out your contact information. Required fields are marked with an asterisk</p>
+                <label>*First Name</label>
+                <input name="myFName" id="myFName" required="required">
+                <label>*Last Name</label>
+                <input name="myLName" id="myLName" required="required">
+                <label>*Email Address</label>
+                <input type="email" name="myEmail" id="myEmail" required="required">
+                <label>Phone Number</label>
+                <input type="tel" min="1" max="14" name="myPhone" id="myPhone" maxlength="12">
+                <input type="submit">
+            </form>
+            <hr>
+            <div>
+                Tataru's Bountiful Boutique<br>
+                First shop to the right of the marketboard<br>
+                Sharlayan, EW 60001 <br>
+                <br>
+                666-000-0001<br>
+                <br>
+            </div>
+        </main>
+        <footer>
+            Copyright &copy;2022 Tataru's Bountiful Boutique <br>
+            <a href="mailto:abby.dalton9590@mail.davistech.edu">
+                Click Here to Email Us!
+            </a>
+        </footer>
+    </div>
+</body>
+</html>
